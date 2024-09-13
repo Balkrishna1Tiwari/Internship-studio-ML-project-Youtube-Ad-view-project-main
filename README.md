@@ -8,7 +8,7 @@ Machine Learning Project under Guidance of Internship Studio
 # Data Description
 
 The file train.csv contains metrics and other details of about 15000 youtube
-videos. The metrics include number of views, likes, dislikes, comments and
+videos. The metrics include number of views, likes, dislikes, comments andgit 
 apart from that published date, duration and category are also included.
 
 The train.csv file also contains the metric number of adviews which is our
@@ -50,13 +50,13 @@ on other youtube metrics.
 
 # Steps and Tasks  
 
-Import the datasets and libraries, check shape and datatype.
-Visualise the dataset using plotting using heatmaps and plots. You can study data distributions for each attribute as well.
-Clean the dataset by removing missing values and other things.
-Transform attributes into numerical values and other necessary transformations.
-Normalise your data and split the data into training, validation and test set in the appropriate ratio.
-Use linear regression, Support Vector Regressor for training and get errors.
-Use Decision Tree Regressor and Random Forest Regressors.
-Build an artificial neural network and train it with different layers and hyperparameters. Experiment a little. Use keras.
-Pick the best model based on error as well as generalisation. From my experiments, the best model is Support Vector Regression as its error is the least error among all.
-Save the model and predicted on the test set.
+1. Import the datasets and libraries, check shape and datatype.
+1.  Visualise the dataset using plotting using heatmaps and plots. You can study data distributions for each attribute as well.
+3. Clean the dataset by removing missing values and other things.
+4. Transform attributes into numerical values and other necessary transformations.
+5. Normalise your data and split the data into training, validation and test set in the appropriate ratio.
+6. Use linear regression, Support Vector Regressor for training and get errors.
+7. Use Decision Tree Regressor and Random Forest Regressors.
+8. Build an artificial neural network and train it with different layers and hyperparameters. Experiment a little. Use keras.
+9. Pick the best model based on error as well as generalisation. From my experiments, the best model is Support Vector Regression as its error is the least error among all.
+11. Save the model and predicted on the test set.
